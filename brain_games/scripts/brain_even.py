@@ -1,41 +1,32 @@
 import random
 
-def is_even(number):
+def parity_check(number):
     return number % 2 == 0
 
 def get_correct_answer(number):
     return 'yes' if is_even(number) else 'no'
 
-def main():
+def game():
     print("Welcome to the Brain Game!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
+    print('Answer "yes" if the number is even, otherwise answer "no".)
 
     correct_answers_count = 0
-    wrong_answers_count = 0
 
-    while correct_answers_count < 3:
+    for i in range(3):
         number = random.randint(1, 100)
-        print(f"Question: {number}")
-        user_answer = input("Your answer: ").strip().lower()
-
-        correct_answer = get_correct_answer(number)
-
-        if user_answer == correct_answer:
-            print("Correct!")
+        print(f'Questions: {number}') 
+        answer = input('Your answer: ')
+        if answer == get_correct_answer:
             correct_answers_count += 1
-            wrong_answers_count = 0  # Reset wrong answers count on correct answer
+            print('Correct!')
+            if correct_answer_count == 3:
+                print(f'Congratulations, {name}!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            wrong_answers_count += 1
-
-            if wrong_answers_count >= 3:
-                print(f"Let's try again, {name}!")
-                correct_answers_count = 0  # Reset the correct answers count
-                wrong_answers_count = 0  # Reset the wrong answers count
-
-    print(f"Congratulations, {name}!")
+            print(f'''\'{answer}\' is wrong answer ;(. Correct answer '{get_correct_answer}'.
+Let's try again, {name}!''') 
 
 if __name__ == "__main__":
-    main()
+    game()
 
