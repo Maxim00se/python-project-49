@@ -4,12 +4,5 @@
 
 # Brain Games
 
-This is a simple game where you need to determine if a given number is even or odd.
-https://asciinema.org/connect/da26adcd-dcba-43d6-8ec7-74f64de92ffe
-
-#Installation
-
-pip install brain_games
-
-brain-even
+https://asciinema.org/a/GA9rzeu7kD2xkEimY7zLYnxQY
 
