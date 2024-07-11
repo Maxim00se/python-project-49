@@ -3,6 +3,13 @@
 <a href="https://codeclimate.com/github/Maxim00se/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/dc24f585ba6899fbdac7/maintainability" /></a>
 
 # Brain Games
+
+This package contains 5 different brain games. Each of them will give you 3 rounds of solving numbers-based tasks
+1. First of all you need to install the package. You can do it with following command:
+pip install git@github.com:Maxim00se/python-project-49.git --user
+2. Then you need to use the same commands which are used in the videos below.
+Each command activates different game with its own rule. Answer 3 times in a row to win.
+
 brain-even
 https://asciinema.org/a/dKTA9QGduyiepmNaJOi9qqHLs
 
