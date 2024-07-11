@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain Games - набор мини-игр для тренировки мозга"
 authors = ["Maxim00se <yazikovmaksim@icloud.com>"]
+repository = "https://github.com/Maxim00se/python-project-49"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
@@ -23,8 +24,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:game_even"
-brain-calc = "brain_games.scripts.brain_calc:game_calc"
-brain-gcd = "brain_games.scripts.brain_gcd:game_gcd"
-brain-prog = "brain_games.scripts.brain_progression:game_progression"
-brain-prime = "brain_games.scripts.brain_prime:game_prime"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-prog = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"

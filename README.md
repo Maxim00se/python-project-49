@@ -4,16 +4,16 @@
 
 # Brain Games
 brain-even
-https://asciinema.org/a/ozImHZOT82Mvg04XrYklZyK7x
+https://asciinema.org/a/dKTA9QGduyiepmNaJOi9qqHLs
 
 brain-calc
-https://asciinema.org/a/XBNGPLSZt3xAlL2LRbEpR7fDE
+https://asciinema.org/a/Au35dL7LxS2bTTP460S5NMyyq
 
 brain-gcd
-https://asciinema.org/a/zkRZv6VsW73D44UQFURQ1bpBX
+https://asciinema.org/a/jJEBCkpl6aG8FlmDh06NiCAhl
 
 brain-progression
-https://asciinema.org/a/liARnVOzQctnCZ5DX4qRDLNSN
+https://asciinema.org/a/Nf8Y8izQBFMLw3GOCrFyTbb3B
 
 brain-prime
- https://asciinema.org/a/xjnukX2RYYFO9kXGfndSAoovV
+https://asciinema.org/a/BKc7WzH58fCJbSAsWINVuCX3n
