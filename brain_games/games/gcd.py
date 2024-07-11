@@ -20,5 +20,5 @@ def game_gcd():
 Let's try again, {name}!''')
             break
         if count_correct_answers == 3:
-            print(f"Congratulations, {name}")
+            print(f"Congratulations, {name}!")
 
