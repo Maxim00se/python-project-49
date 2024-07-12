@@ -19,7 +19,7 @@ def game_gcd():
         else:
             print(f"'{answer}\' is wrong answer ;(."
                   f"Correct answer was '{correct_answer}'.")
-            print("Let's try again, {name}!")
+            print(f"Let's try again, {name}!")
             break
         if count_correct_answers == 3:
             print(f"Congratulations, {name}!")

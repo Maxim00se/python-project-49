@@ -25,7 +25,7 @@ def game_calc():
         example = f'{number_1} {operator_choice} {number_2}'
         correct_answer = calculate(operator_choice, number_1, number_2)
 
-        print(f'Question: {example}')
+        print(f"Question: {example}")
         answer = input('Your answer: ')
 
         if int(answer) == correct_answer:
@@ -34,10 +34,10 @@ def game_calc():
         else:
             print(f"'{answer}' is wrong answer ;(."
                   f"Correct answer was '{correct_answer}'.")
-            print("Let's try again, {name}!")
+            print(f"Let's try again, {name}!")
             break
     if count_correct_answer == 3:
-        print(f'Congratulations, {name}!')
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == "__main__":
