@@ -5,10 +5,12 @@ from brain_games.cli import welcome_user
 def generate_progression(start, step, length=10):
     return [start + step * i for i in range(length)]
 
+
 def hide_element(progression, hidden_index):
     hidden_value = progression[hidden_index]
     progression[hidden_index] = '..'
     return hidden_value, progression
+
 
 def game_progression():
     name = welcome_user()
@@ -22,7 +24,10 @@ def game_progression():
 
         progression = generate_progression(start, step, length)
         hidden_index = random.randint(0, length - 1)
-        hidden_value, hidden_progression = hide_element(progression, hidden_index)
+        hidden_value, hidden_progression = hide_element(
+            progression,
+            hidden_index
+        )
 
         print(f'Question: {" ".join(map(str, hidden_progression))}')
         answer = input('Your answer: ')
@@ -30,8 +35,9 @@ def game_progression():
         if answer.isdigit() and int(answer) == hidden_value:
             print('Correct!')
         else:
-            print(f'''\'{answer}\' is wrong answer ;(. Correct answer was \'{hidden_value}\'.
-Let's try again, {name}!''')
+            print(f"'{answer}' is wrong answer ;(."
+                  f"Correct answer was '{hidden_value}'.")
+            print("Let's try again, {name}!")
             break
     else:
         print(f'Congratulations, {name}!')

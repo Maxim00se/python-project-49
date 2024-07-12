@@ -10,8 +10,10 @@ def is_prime(number):
             return False
     return True
 
+
 def get_correct_answer(number):
     return 'yes' if is_prime(number) else 'no'
+
 
 def game_prime():
     name = welcome_user()
@@ -29,10 +31,10 @@ def game_prime():
             correct_answers_count += 1
             print('Correct!')
         else:
-            print(f'''\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.
-Let's try again, {name}!''')
+            print(f"'{answer}' is wrong answer ;(."
+                  f"Correct answer was '{correct_answer}'.")
+            print("Let's try again, {name}!")
             break
 
     if correct_answers_count == 3:
         print(f'Congratulations, {name}!')
-

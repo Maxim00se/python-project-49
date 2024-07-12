@@ -1,6 +1,7 @@
 import random
 from brain_games.cli import welcome_user
 
+
 def calculate(operator, number_1, number_2):
     if operator == '+':
         return number_1 + number_2
@@ -8,6 +9,7 @@ def calculate(operator, number_1, number_2):
         return number_1 - number_2
     elif operator == '*':
         return number_1 * number_2
+
 
 def game_calc():
     name = welcome_user()
@@ -30,8 +32,9 @@ def game_calc():
             count_correct_answer += 1
             print('Correct!')
         else:
-            print(f'''\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.
-Let's try again, {name}!''')
+            print(f"'{answer}' is wrong answer ;(."
+                  f"Correct answer was '{correct_answer}'.")
+            print("Let's try again, {name}!")
             break
     if count_correct_answer == 3:
         print(f'Congratulations, {name}!')
@@ -39,4 +42,3 @@ Let's try again, {name}!''')
 
 if __name__ == "__main__":
     game_calc()
-
