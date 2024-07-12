@@ -15,7 +15,7 @@ def get_correct_answer(number):
 
 def game_prime():
     name = welcome_user()
-    print('Answer "yes" if the number is prime, otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     correct_answers_count = 0
 
