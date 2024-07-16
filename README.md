@@ -10,17 +10,19 @@ pip install git@github.com:Maxim00se/python-project-49.git --user
 2. Then you need to use the same commands which are used in the videos below.
 Each command activates different game with its own rule. Answer 3 times in a row to win.
 
-brain-even
-https://asciinema.org/a/dKTA9QGduyiepmNaJOi9qqHLs
+## brain-even
 
-brain-calc
-https://asciinema.org/a/Au35dL7LxS2bTTP460S5NMyyq
+[Watch the asciicast](https://asciinema.org/a/dKTA9QGduyiepmNaJOi9qqHLs)
 
-brain-gcd
-https://asciinema.org/a/jJEBCkpl6aG8FlmDh06NiCAhl
 
-brain-progression
-https://asciinema.org/a/Nf8Y8izQBFMLw3GOCrFyTbb3B
+## brain-calc
+[Watch the asciicast](https://asciinema.org/a/Au35dL7LxS2bTTP460S5NMyyq)
 
-brain-prime
-https://asciinema.org/a/BKc7WzH58fCJbSAsWINVuCX3n
+## brain-gcd
+[Watch the asciicast](https://asciinema.org/a/jJEBCkpl6aG8FlmDh06NiCAhl)
+
+## brain-progression
+[Watch the asciicast](https://asciinema.org/a/Nf8Y8izQBFMLw3GOCrFyTbb3B)
+
+## brain-prime
+[Watch the asciicast](https://asciinema.org/a/BKc7WzH58fCJbSAsWINVuCX3n)
